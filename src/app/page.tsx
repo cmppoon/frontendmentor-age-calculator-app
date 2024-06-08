@@ -118,7 +118,7 @@ export default function Home() {
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-off-white p-8">
-      <div className="max-w-2xl space-y-12 rounded-xl rounded-br-[6rem] bg-white p-4 px-6 sm:p-8 sm:px-14">
+      <div className="max-w-3xl space-y-12 rounded-xl rounded-br-[6rem] bg-white p-4 px-6 sm:p-8 sm:px-14">
         <form className="space-y-12 text-smokey-grey" onSubmit={handleSubmit}>
           <div className="grid grid-cols-3 gap-x-4 sm:gap-x-8 sm:pr-36">
             <div>
