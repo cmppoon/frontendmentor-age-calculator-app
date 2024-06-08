@@ -199,7 +199,7 @@ export default function Home() {
               </div>
               <input
                 className={clsx(
-                  "block w-full rounded-md border-0 px-2 sm:px-4 py-3 text-lg font-bold text-off-black placeholder:text-smokey-grey sm:text-xl sm:leading-6",
+                  "block w-full rounded-md border-0 px-2 sm:px-4 py-3 text-lg font-bold text-off-black placeholder:text-smokey-grey sm:text-2xl sm:leading-6",
                   isInvalid
                     ? "ring-1 ring-inset ring-red-600 focus:ring-2 focus:ring-inset focus:ring-red-700"
                     : "ring-1 ring-inset ring-light-grey focus:ring-2 focus:ring-inset focus:ring-primary-purple",
@@ -221,29 +221,29 @@ export default function Home() {
           <div className="relative border-b border-light-grey">
             <button
               type="submit"
-              className="absolute inset-1/2 size-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-purple sm:inset-x-full sm:size-16"
+              className="absolute inset-1/2 size-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-purple sm:inset-x-full sm:size-20"
             >
               <IconArrow className="mx-auto p-2 sm:p-1.5" />
             </button>
           </div>
         </form>
         <div>
-          <p className="text-5xl font-bold italic sm:text-7xl">
+          <p className="text-6xl font-bold italic sm:text-8xl">
             <span className="font-extrabold text-primary-purple">
               {yearText}
-            </span>{" "}
+            </span>
             years
           </p>
-          <p className="text-5xl font-bold italic sm:text-7xl">
+          <p className="text-6xl font-bold italic sm:text-8xl">
             <span className="font-extrabold text-primary-purple">
               {monthText}
-            </span>{" "}
+            </span>
             months
           </p>
-          <p className="text-5xl font-bold italic sm:text-7xl">
+          <p className="text-6xl font-bold italic sm:text-8xl">
             <span className="font-extrabold text-primary-purple">
               {dayText}
-            </span>{" "}
+            </span>
             days
           </p>
         </div>
